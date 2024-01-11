@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading>p:nth-child(1) {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.heading>p:nth-child(2) {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    color: #8391a1;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border-color: rgba(128, 128, 128, 0.355) !important;
+}
+
+#mobile-nummber-input {
+    min-width: 270px;
+}
+
+#send-code-button {
+    margin-top: 1.5rem;
+    background-color: #ff6d6a;
+    color: #ffffff;
+    font-size: 0.8rem;
+    min-width: 300px;
+    min-height: 50px;
+    margin-bottom: 1.5rem;
+}
+
+.verify-button {
+    padding: 0px 10px;
+}
+
+.otp>p:nth-child(1),
+.otp>p:nth-child(2) {
+    text-align: left;
+    max-width: 300px;
+}
+
+.css-tccdxk {
+    gap: 10px !important;
+    padding: 0px 10px;
+}
+
+.resend>p {
+    font-size: 1rem;
+    color: #1e232c;
+}
+
+.resend>p span {
+    font-size: 1rem;
+    color: #5574c6;
+    cursor: pointer;
+}
